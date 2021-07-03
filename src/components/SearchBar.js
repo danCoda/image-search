@@ -18,6 +18,7 @@ class SearchBar extends React.Component {
                             type="text" 
                             onChange={e => this.setState({ term: e.target.value.toLocaleUpperCase() })}
                             value={this.state.term}
+                            placeholder="Type keyword here..."
                         />
                     </div>
                 </form>
